@@ -18,6 +18,22 @@ function filter() {
     });
   }
 
+  const twitterOpenPosts = document.querySelectorAll(
+    ".css-4rbku5.css-18t94o4.css-901oao.r-jwli3a.r-1loqt21.r-1qd0xha.r-a023e6.r-16dba41.r-ad9z0x.r-bcqeeo.r-qvutc0"
+  );
+  if (twitterOpenPosts.length > 0) {
+    twitterOpenPosts.forEach((e) => {
+      e.innerHTML = "?";
+    });
+  }
+
+  const twitterOpenPosts2 = document.querySelectorAll('.css-1dbjc4n.r-xoduu5.r-1udh08x');
+  if (twitterOpenPosts2.length > 0) {
+    twitterOpenPosts2.forEach((e) => {
+      e.innerHTML = "?";
+    });
+  }
+
   const instagramProfile = document.querySelectorAll(".g47SY");
   if (instagramProfile.length > 0) {
     instagramProfile.forEach((e) => {
@@ -32,5 +48,4 @@ function filter() {
     });
   }
 }
-
 setInterval(filter, 1000);
