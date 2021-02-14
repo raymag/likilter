@@ -27,13 +27,6 @@ function filter() {
     });
   }
 
-  const twitterOpenPosts2 = document.querySelectorAll('.css-1dbjc4n.r-xoduu5.r-1udh08x');
-  if (twitterOpenPosts2.length > 0) {
-    twitterOpenPosts2.forEach((e) => {
-      e.innerHTML = "?";
-    });
-  }
-
   const instagramProfile = document.querySelectorAll(".g47SY");
   if (instagramProfile.length > 0) {
     instagramProfile.forEach((e) => {
